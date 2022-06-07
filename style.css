@@ -1,0 +1,102 @@
+body {
+    background-image: url('sky.png');
+    display: flex;
+    align-items: flex end;
+}
+/* original comment */
+#originalPost {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(224, 224, 224));
+    position: fixed;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius:25px;
+}
+#originalPost p{
+    font-size: 80px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#originalPost h6{
+    font-size: 30px;
+    margin: 20px;
+}
+/* comment section */
+#comments {
+    background-color: grey;
+    margin: 500px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 2200px;
+    border-radius:25px;
+}
+.post {
+    border-radius:25px;
+    background-image: linear-gradient(rgb(218, 218, 255), rgb(255, 255, 255));
+    font-size: 40px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.topStuff {
+    display: flex;
+    justify-content: space-between;
+}
+/* displayed words for the comments */
+.profileImage {
+}
+.edit {
+    color: rgb(62, 162, 255);
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 700px;
+}
+.delete {
+    color: rgb(62, 162, 255);
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 50px;
+}
+.post h5 {
+    margin: 0;
+}
+/* the place where you write the comments */
+#writeComments {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-image: linear-gradient(rgb(211, 211, 211), rgb(180, 180, 180));
+    align-self: flex-end;
+    bottom: 0;
+    position: fixed;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 1200px;
+    height: 150px;
+    border-radius:25px;
+    width: 90%;
+}
+#userName {
+    height: 50px;
+    margin: 20px;
+    border-radius:15px;
+    width: 100%;
+}
+#comment {
+    height: 50px;
+    margin: 20px;
+    border-radius:15px;
+    width: 500%;
+}
+#submit {
+    color:rgb(62, 162, 255);
+    font-size: 50px;
+    display: flex;
+    margin-left: 700px;
+}
+/* makes stuff disappear and reappear */
+.noDisplay {
+    display: none;
+}
